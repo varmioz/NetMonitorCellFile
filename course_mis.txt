@@ -1,0 +1,3 @@
+$ browser-sync start --server --/c/Users/Ira/web-test --files"*"
+
+////to load local copy of site with synchronization
