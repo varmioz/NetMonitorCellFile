@@ -1,4 +1,2 @@
-# web-test
-Coursera web
-url: http://varmioz.github.io/web-test/
-trying some web paging content
+# Creating CellFile for NetMonitor
+Script fetchs data from Atoll SQL server and put it in csv 
