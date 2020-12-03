@@ -240,7 +240,7 @@ if __name__ == '__main__':
         # writing header of cellfile
         cf.write('tech;mcc;mnc;lac_tac;node_id;cid;psc_pci;band;arfcn;site_name;cell_lat;cell_long;cell_name;azimuth;height;tilt_mech;tilt_el\n')
 
-    with open(cellfile, 'a') as cf:
+    with open(path + cellfile, 'a') as cf:
         mdbGQueryData(database)
         mdbWQueryData(database)
         mdbLQueryData(database)
